@@ -1,0 +1,71 @@
+body{
+  background-color: #1B3152;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div-padre{
+  width: 60%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+h1{
+  color: white;
+}
+
+.input{
+  width: 450px;
+  height: 50px;
+  margin: 5px;
+  padding: 0px 20px;
+  border: 0px;
+  border-radius: 10px ;
+  background-color: white;
+  font-size: 18px;
+}
+
+.boton-agregar{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: rgb(255, 6, 46);
+  color: white;
+}
+
+.boton-agregar:hover{
+  opacity: 0.7;
+}
+
+.item-input{
+  width: 250px;
+  height: 50px;
+  padding: 0px 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background: none;
+}
+
+
+.boton-remover{
+  background-color: rgb(255, 6, 46);
+  color: white;
+}
+
+.boton-editar{
+  color: #62d0ff;
+  background: none;
+  font-size: 1.4rem ;
+  font-family: Montserrat, sans-serif;
+}
+
+.boton-remover,.boton-editar{
+  width: 50px;
+  height: 50px;
+  margin: 0px 5px;
+  border: none;
+  border-radius: 10px;
+}
